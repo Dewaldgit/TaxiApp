@@ -43,7 +43,7 @@ with dataset:
     st.text('https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page')
 
     # Importing the CSV data via Pandas
-    taxi_data = get_data('data/yellow_tripdata_2021-01.csv')
+    taxi_data = get_data('Data/yellow_tripdata_2021-01.csv')
     st.write(taxi_data.head())
 
     st.subheader('Pick-up location ID distribution on the NYC dataset')
